@@ -16,10 +16,10 @@ namespace ConsoleApp21
 			spisok.Add(new Node<int>(12));
 			spisok.Print();
 			Console.WriteLine("Вставка после индексом");
-			spisok.InsertAfter(new Node<int>(3), 3);
+			spisok.InsertAfter(new Node<int>(123), 3);
 			spisok.Print();
 			Console.WriteLine("Вставка перед индексом");
-			spisok.InsertBefore(new Node<int>(3), 3);
+			spisok.InsertBefore(new Node<int>(123), 3);
 			spisok.Print();
 			Console.WriteLine("Удаление с выводом");
 			Console.WriteLine();
